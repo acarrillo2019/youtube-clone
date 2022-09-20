@@ -17,9 +17,13 @@
 
 .header__input {
     display: flex;
-    width: 40%;
     align-items: center;
+    width: 40%;
     border: 1px solid lightgray;
+}
+
+.header__input > a{
+    display: flex;
 }
 
 .header__inputButton {
@@ -29,7 +33,7 @@
     color: gray;
 }
 
-.header__icons > input {
+.header__input > input {
     flex: 1;
     border: none;
 }
