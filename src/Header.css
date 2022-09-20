@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -18,15 +18,13 @@
 .header__input {
     display: flex;
     align-items: center;
-    width: 40%;
+    width: 35%;
+    height: 42px;
     border: 1px solid lightgray;
 }
 
-.header__input > a{
-    display: flex;
-}
-
 .header__inputButton {
+    display: flex;
     width: 50px !important;
     background-color: #fafafa;
     border-left: 1px solid lightgray;
@@ -38,9 +36,18 @@
     border: none;
 }
 
+.header__input > a {
+    display: flex;
+}
+
+.header__input > input:focus {
+    outline:0 !important
+}
+
 .header__icons {
     display: flex;
     align-items: center;
+    margin-right: 30px;
 }
 
 .header__icon {
