@@ -11,9 +11,9 @@ function App() {
     <div className="app">
       <Router>
         <Header />
-        
+
         <Switch>
-          <Route path="/search/:searchTerm">
+          <Route path="/search">
             <div className="app__page">
               <Sidebar />
               <SearchPage />
